@@ -1,3 +1,12 @@
-var username=prompt("Enter username");
+/**var username=prompt("Enter username");
 welcome="script is working "+username;
-alert(welcome);
+alert(welcome);**/
+
+var btnTranslate=document.querySelector("#btn-translate");
+
+function clickEventHandler()
+{
+    console.log("clicked");
+};
+
+btnTranslate.addEventListener("click",clickEventHandler);
