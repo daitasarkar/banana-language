@@ -5,6 +5,7 @@
     --reddish-white: #FEF2F2;
     --blue: #1c4372;
     --gray: #374151;
+    --light-yellow: #FDE68A;
 }
 
 body{
@@ -28,11 +29,13 @@ textarea {
     height: 5vh;
     font-size: large;
     font-family: inherit;
-    color: var(--gray);
+    font-weight: bold;
+    color: var(--blue);
     margin-top: 2rem;
     width: 100%;
     box-sizing: border-box;
     min-height: 15vh;
+    background-color: var(--light-yellow);
 }
 
 
@@ -46,7 +49,9 @@ textarea {
     overflow: scroll;
     margin: 1rem;
     box-sizing: border-box;
-    color: var(--reddish-white);
+    color: var(--blue);
+    background-color: var(--light-yellow);
+    font-weight: bold;
 }
 
 #navigation{
@@ -58,7 +63,7 @@ textarea {
 
 #btn-translate{
     background-color: var(--primary-color);
-    color:var(--reddish-white);
+    color: var(--reddish-white);
     padding: 0.5rem 0.5rem;
     border: none;
     font-family: 'Indie Flower', cursive;
